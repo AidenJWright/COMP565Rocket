@@ -382,7 +382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &173779101
 RectTransform:
   m_ObjectHideFlags: 0
@@ -517,7 +517,7 @@ GameObject:
   - component: {fileID: 274237800}
   - component: {fileID: 274237799}
   m_Layer: 5
-  m_Name: Button (Pyramid)
+  m_Name: Button (Target)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1179,7 +1179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d80cabb7f46004842b09173491e74cc6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c0fb5a483f6f02d4c980db3460cda70b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1625,7 +1625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 930e939e9def94ef69711892eaa9af81, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c1c85dbcd4720d043872117e87078a5f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1981,7 +1981,7 @@ GameObject:
   - component: {fileID: 817813619}
   - component: {fileID: 817813618}
   m_Layer: 5
-  m_Name: Button (Cube)
+  m_Name: Button (Launcher)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3789,7 +3789,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67a9cd7019df99c45ae7c458117f3915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  timer: 0
+  RocketPrefab: {fileID: 6818375942437791787, guid: adb40ef759d1d454abb3e77f8372ab45, type: 3}
+  timer: 5
+  flightHeight: 5
 --- !u!4 &1156055020
 Transform:
   m_ObjectHideFlags: 0
